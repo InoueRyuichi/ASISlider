@@ -56,10 +56,7 @@ class ViewController: UIViewController {
         self.view.addSubview(slider)
     }
     
-    func valueChanged(sender:ArrowStyleIndicatorSlider){
-        var thumb=sender.subviews[3] as! UIView
-        sender.indicatorView.center.x = thumb.center.x
-        
+    func valueChanged(sender:ArrowStyleIndicatorSlider){        
         var value=Int(roundf(sender.value))
         var str = (value < 4) ? "AM \(value+9):00" : "PM \(value-4):00"
         sender.indicatorView.label.text=str
