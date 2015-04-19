@@ -18,9 +18,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //var view=ArrowStyleLabelView(frame: CGRectMake(10, 40, 100, 100))
-        //self.view.addSubview(view)
-        
         testSlider()
         initSlider()
         
