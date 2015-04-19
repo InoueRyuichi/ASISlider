@@ -29,7 +29,7 @@ class ArrowStyleIndicatorSlider: UISlider {
         super.init(frame: frame)
         commonSetting()
         
-        indicatorView=ArrowStyleLabelView(frame: CGRectMake(0, -48, indicatorSize.width, indicatorSize.height), cornerRadii: indicatorRadii, arrowHeight: arrowHeight)
+        indicatorView=ArrowStyleLabelView(frame: CGRectMake(0, self.center.y-indicatorSize.height-18, indicatorSize.width, indicatorSize.height), cornerRadii: indicatorRadii, arrowHeight: arrowHeight)
         indicatorView.center.x=self.center.x
         self.addSubview(indicatorView)
     }

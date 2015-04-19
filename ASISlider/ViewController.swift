@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     
     func initSlider(){
         var screen=UIScreen.mainScreen().bounds
-        var slider=ArrowStyleIndicatorSlider(frame: CGRectMake(0, 0, screen.width-60, 50), indicatorSize: CGSizeMake(100, 40), indicatorRadii: 5, arrowHeight: 10)
+        var slider=ArrowStyleIndicatorSlider(frame: CGRectMake(0, 0, screen.width-60, 50), indicatorSize: CGSizeMake(100, 100), indicatorRadii: 5, arrowHeight: 10)
 
         slider.maximumValue=13
         slider.minimumValue=0
