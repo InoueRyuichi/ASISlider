@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DE470BAF-ADB5-4EA0-8665-D8976485F586</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ASISlider</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>80647E700AB54CFCC0835359F1F82F3D69B296AC</key>
+		<string>https://github.com/InoueRyuichi/ASISlider.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ASISlider.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>80647E700AB54CFCC0835359F1F82F3D69B296AC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/InoueRyuichi/ASISlider.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>80647E700AB54CFCC0835359F1F82F3D69B296AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>80647E700AB54CFCC0835359F1F82F3D69B296AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ASISlider</string>
+		</dict>
+	</array>
+</dict>
+</plist>
