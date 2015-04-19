@@ -21,18 +21,23 @@ class ArrowStyleLabelView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         self.backgroundColor=UIColor.cyanColor()
-        self.clipsToBounds=true
-        setMaskLayer()
-        
-        label=UILabel(frame: CGRectMake(4, 0, frame.width-8, frame.height-arrowHeight))
-        label.textAlignment=NSTextAlignment.Center
-        self.addSubview(label)
+        commonSetting()
     }
     
     init(frame: CGRect, cornerRadii:CGFloat, arrowHeight:CGFloat) {
         super.init(frame: frame)
         self.cornerRadii=cornerRadii
         self.arrowHeight=arrowHeight
+        commonSetting()
+    }
+    
+    func commonSetting(){
+        self.clipsToBounds=true
+        setMaskLayer()
+        
+        label=UILabel(frame: CGRectMake(4, 0, frame.width-8, frame.height-arrowHeight))
+        label.textAlignment=NSTextAlignment.Center
+        self.addSubview(label)
     }
     
     func initMaskPath() ->UIBezierPath {
